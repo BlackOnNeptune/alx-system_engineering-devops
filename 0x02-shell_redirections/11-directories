@@ -1,2 +1,2 @@
 #!/bin/bash
-fink . -type d -not -name | wc -l
+fink . -type d ! - path . -print | wc -1
